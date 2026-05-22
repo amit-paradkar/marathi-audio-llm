@@ -1,0 +1,16 @@
+trainer:
+  max_epochs: 20
+
+dataset:
+  batch_size: 8
+
+model:
+  sample_rate: 16000
+
+  encoder_dim: 64
+
+  latent_dim: 128
+
+  codebook_size: 1024
+
+  n_codebooks: 4
