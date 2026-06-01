@@ -2,6 +2,9 @@ __pycache__/
 *.pyc
 copy_*.py
 .env
+.dacenv_new
+.venv
+dacenv
 venv/
 checkpoints/
 data/
