@@ -55,8 +55,8 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Device identified: {DEVICE}")
 
 if DEVICE == 'cuda':
-    MAX_RUNTIME_SECONDS = 300
-    CHECKPOINT_INTERVAL = 20
+    MAX_RUNTIME_SECONDS = 8 * 60 * 60 # 8 hrous
+    CHECKPOINT_INTERVAL = 500
     BATCH_SIZE = 4
 else:
     MAX_RUNTIME_SECONDS = 60
